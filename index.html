@@ -1,21 +1,25 @@
-html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio – Tiseer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio – Tiseer Msugh Andrew</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 40px;
+      padding: 40px 20px;
       background-color: #f2f2f2;
+      margin: 0;
     }
     h1 {
       color: #1a73e8;
+      margin-bottom: 10px;
     }
     p {
       font-size: 18px;
       color: #333;
+      margin: 5px 0;
     }
     h2 {
       margin-top: 40px;
@@ -23,34 +27,49 @@ html
     }
     a.button {
       display: inline-block;
-      padding: 10px 20px;
-      margin: 10px;
+      padding: 12px 24px;
+      margin: 8px;
       background: #1a73e8;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 6px;
       font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #155bb5;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 24px; }
+      p { font-size: 16px; }
+      a.button { padding: 10px 18px; font-size: 14px; }
     }
   </style>
 </head>
 <body>
-<img src="profile.jpg" alt="My Profile Photo" style="width:150px; height:150px; border-radius:50%; margin-bottom: 20px;">
-  html
-<h1>Hi, I'm Tiseer Msugh Andrew</h1>
-<p class="subtitle">BSc Zoology | Web3 | Digital Marketing | E-commerce | Data Analyst | Content Creator</p>
-<p>Email: tiseermsugh16@gmail.com<br>
-WhatsApp: +2347032953326</p>
+  <img src="profile.jpg" alt="Tiseer Msugh Andrew Profile Photo">
+  
+  <h1>Hi, I'm Tiseer Msugh Andrew</h1>
+  <p>BSc Zoology | Web3 | Digital Marketing | E-commerce | Data Analyst | Content Creator</p>
+  <p>Email: <a href="mailto:tiseermsugh16@gmail.com">tiseermsugh16@gmail.com</a><br>
+  WhatsApp: <a href="https://wa.me/2347032953326" target="_blank">+2347032953326</a></p>
 
   <h2>Download My Documents</h2>
-  html
-<a class="button" href="mybirthcertificate.pdf" download>Download Birth Certificate</a>
-<a class="button" href="myprimaryschoolcertificate.pdf" download>Download Primary School Certificate</a>
-<a class="button" href="myprimaryschooltestimony.pdf" download>Download Primary School Testimony</a>
-<a class="button" href="mystateorigin.pdf" download>Download State of Origin</a>
-<a class="button" href="mywaecresult.pdf" download>Download WAEC Result</a>
-<a class="button" href="mybscstatementofresult.pdf" download>Download BSc Statement of Result</a>
-  <a class="button" href="Webcv.pdf" download>Download My CV</a><br>
-  <a class="button" href="Webcoverletter.pdf" download>Download Cover Letter</a><br>
-  <a class="button" href="Webporfolio.pdf" download>Download Portfolio</a>
+  <a class="button" href="mybirthcertificate.pdf" download>Download Birth Certificate</a>
+  <a class="button" href="myprimaryschoolcertificate.pdf" download>Download Primary School Certificate</a>
+  <a class="button" href="myprimaryschooltestimony.pdf" download>Download Primary School Testimony</a>
+  <a class="button" href="mystateorigin.pdf" download>Download State of Origin</a>
+  <a class="button" href="mywaecresult.pdf" download>Download WAEC Result</a>
+  <a class="button" href="mybscstatementofresult.pdf" download>Download BSc Statement of Result</a>
+  <a class="button" href="Webcv.pdf" download>Download My CV</a>
+  <a class="button" href="Webcoverletter.pdf" download>Download Cover Letter</a>
+  <a class="button" href="Webportfolio.pdf" download>Download Portfolio</a>
 </body>
 </html>
